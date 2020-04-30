@@ -1,0 +1,9 @@
+C:\Desenv\API_Angular\Core\bin\Debug\netstandard2.0\Core.deps.json
+C:\Desenv\API_Angular\Core\bin\Debug\netstandard2.0\Core.dll
+C:\Desenv\API_Angular\Core\bin\Debug\netstandard2.0\Core.pdb
+C:\Desenv\API_Angular\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
+C:\Desenv\API_Angular\Core\obj\Debug\netstandard2.0\Core.AssemblyInfoInputs.cache
+C:\Desenv\API_Angular\Core\obj\Debug\netstandard2.0\Core.AssemblyInfo.cs
+C:\Desenv\API_Angular\Core\obj\Debug\netstandard2.0\Core.dll
+C:\Desenv\API_Angular\Core\obj\Debug\netstandard2.0\Core.pdb
+C:\Desenv\API_Angular\Core\obj\Debug\netstandard2.0\Core.csprojAssemblyReference.cache
