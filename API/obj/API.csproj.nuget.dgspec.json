@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Desenv\\Api_Angular\\API\\API.csproj": {}
+    "C:\\Desenv\\API_Angular\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Desenv\\Api_Angular\\API\\API.csproj": {
+    "C:\\Desenv\\API_Angular\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desenv\\Api_Angular\\API\\API.csproj",
+        "projectUniqueName": "C:\\Desenv\\API_Angular\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Desenv\\Api_Angular\\API\\API.csproj",
+        "projectPath": "C:\\Desenv\\API_Angular\\API\\API.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Desenv\\Api_Angular\\API\\obj\\",
+        "outputPath": "C:\\Desenv\\API_Angular\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Desenv\\Api_Angular\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Desenv\\Api_Angular\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Desenv\\API_Angular\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Desenv\\API_Angular\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Desenv\\Api_Angular\\Core\\Core.csproj": {
+    "C:\\Desenv\\API_Angular\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desenv\\Api_Angular\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Desenv\\API_Angular\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Desenv\\Api_Angular\\Core\\Core.csproj",
+        "projectPath": "C:\\Desenv\\API_Angular\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Desenv\\Api_Angular\\Core\\obj\\",
+        "outputPath": "C:\\Desenv\\API_Angular\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -134,14 +134,14 @@
         }
       }
     },
-    "C:\\Desenv\\Api_Angular\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Desenv\\API_Angular\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desenv\\Api_Angular\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Desenv\\API_Angular\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Desenv\\Api_Angular\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Desenv\\API_Angular\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Desenv\\Api_Angular\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Desenv\\API_Angular\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -161,8 +161,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Desenv\\Api_Angular\\Core\\Core.csproj": {
-                "projectPath": "C:\\Desenv\\Api_Angular\\Core\\Core.csproj"
+              "C:\\Desenv\\API_Angular\\Core\\Core.csproj": {
+                "projectPath": "C:\\Desenv\\API_Angular\\Core\\Core.csproj"
               }
             }
           }

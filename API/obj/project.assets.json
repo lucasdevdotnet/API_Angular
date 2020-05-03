@@ -5377,11 +5377,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Desenv\\Api_Angular\\API\\API.csproj",
+      "projectUniqueName": "C:\\Desenv\\API_Angular\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Desenv\\Api_Angular\\API\\API.csproj",
+      "projectPath": "C:\\Desenv\\API_Angular\\API\\API.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Desenv\\Api_Angular\\API\\obj\\",
+      "outputPath": "C:\\Desenv\\API_Angular\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5401,8 +5401,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Desenv\\Api_Angular\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Desenv\\Api_Angular\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Desenv\\API_Angular\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Desenv\\API_Angular\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
