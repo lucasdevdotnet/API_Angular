@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Desenv\\API_Angular\\Core\\Core.csproj": {}
+    "C:\\Desenv\\Api_Angular\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Desenv\\API_Angular\\Core\\Core.csproj": {
+    "C:\\Desenv\\Api_Angular\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desenv\\API_Angular\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Desenv\\Api_Angular\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Desenv\\API_Angular\\Core\\Core.csproj",
+        "projectPath": "C:\\Desenv\\Api_Angular\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Desenv\\API_Angular\\Core\\obj\\",
+        "outputPath": "C:\\Desenv\\Api_Angular\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

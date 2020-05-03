@@ -13,19 +13,19 @@ namespace API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class ProductsController : ControllerBase
+    public class ProductController : ControllerBase
     {
         
 
 
         private readonly IProductRepository _repo;
-        public ProductsControllers(IProductRepository repo)
+        public ProductController(IProductRepository repo)
         {
              this._repo =  repo;
         }
 
 
-      [HttpGet("nomeEspecifico")]
+      [HttpGet]
         public async Task<ActionResult<List<Product>>> GetProducts()
         {
             var products = await _repo.GetproductsAsyn();

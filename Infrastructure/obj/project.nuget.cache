@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iDOOWUXH+GZ31sKWv0gZFS83uo9bFchx1oDslAG1BoKCd8a9Jd4u67SGotLU+jRECpAMDoRNaLn/vxU5AuziMA==",
+  "dgSpecHash": "oR152SwUMc4/D+oVcnNJBQ+cs4Pwf8V0jV6Lx4Bil0NmN9jGtAE82pnRWbS1ZZeySaue5YyRTPZscFVUFh4o1g==",
   "success": true,
-  "projectFilePath": "C:\\Desenv\\API_Angular\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Desenv\\Api_Angular\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

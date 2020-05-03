@@ -24,7 +24,7 @@ namespace Infrastructure.Data.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("Nome")
-                        .HasColumnType("INTEGER");
+                        .HasColumnType("VARCHAR");
 
                     b.HasKey("Id");
 
