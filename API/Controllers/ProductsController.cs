@@ -17,34 +17,40 @@ namespace API.Controllers
     {
 
 
-        private readonly IProductRepository _repo;
-        public ProductsController(IProductRepository repo)
-        {
-             this._repo =  repo;
-        }
 
 
-        [HttpGet]
-        public async Task<ActionResult<List<Product>>> GetProducts()
-        {
-            var products = await _repo.GetproductsAsyn();
-            return Ok(products);
+        private readonly GenericRepository<Product> _productsRepo;
+        private readonly GenericRepository<ProductType> _productType;
+        private readonly GenericRepository<ProductBrand> _productBrand;
+
+        public ProductsController (
+            
+            GenericRepository<Product> productsRepo,
+            GenericRepository<ProductType> productType,
+            GenericRepository<ProductBrand> productBrand
+        ) {
+            this._productsRepo = productsRepo;
+            this._productType = productType;
+            this._productBrand = productBrand;
         }
+
+     
+
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProducts(int id)
         {
-            return await _repo.GetproductByIdAsyn(id);
+            return await _productsRepo.GetByIdAsync(id);
 
         }
           [HttpGet("brands")]
         public async Task<ActionResult<List<ProductBrand>>> GetProductBrand()
         {
-            return Ok(await _repo.GetProductBrandAsyn());
+            return Ok(await _productBrand.ListAllAsync());
         }
             [HttpGet("types")]
         public async Task<ActionResult<List<ProductType>>> GetProductType()
         {
-            return Ok(await _repo.ProductTypeAsyn());
+            return Ok(await _productType.ListAllAsync());
         }
     }
 }
