@@ -24,7 +24,9 @@ namespace Infrastructure.Data
         public async Task<Product> GetproductByIdAsyn(int id)
         {
 
-
+            //  var typeId  = 1;
+            //  var products  =  _context.Product
+            //  .where(x=>x.ProductType ==  typeId).Include(x=.x.ProductType).ToListAsync();
             
           return await  _context.Products
                  .Include(p=>p.ProductType)
