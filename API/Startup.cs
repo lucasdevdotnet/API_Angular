@@ -50,6 +50,7 @@ namespace API {
         app.UseHttpsRedirection ();
 
         app.UseRouting ();
+        app.UseStaticFiles(); // config   para  para aparecer   as imagens  no meus  request 
 
         app.UseAuthorization ();
 
