@@ -13,6 +13,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using API.Helper;
+using AutoMapper;
 
 namespace API {
     public class Startup {
@@ -30,6 +32,7 @@ namespace API {
             #region Injetando dependencias  
             services.AddScoped<IProductRepository, ProductRepository> ();
             services.AddScoped(typeof(IGenericRepository<>), (typeof (GenericRepository<>))); // injectando as dependencias      
+            services.AddAutoMapper(typeof(MappingProfiles));
             #endregion
 
                 services.AddControllers ();
