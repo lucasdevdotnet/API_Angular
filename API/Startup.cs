@@ -15,6 +15,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using API.Helper;
 using AutoMapper;
+using API.Middlware;
 
 namespace API {
     public class Startup {
@@ -43,10 +44,8 @@ namespace API {
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
     public void Configure (IApplicationBuilder app, IWebHostEnvironment env) {
-        if (env.IsDevelopment ()) {
-            app.UseDeveloperExceptionPage ();
-        }
-
+        app.UseMiddleware<ExceptionMiddleware>();
+        app.UseStatusCodePagesWithReExecute("/erros/{0}");
         app.UseHttpsRedirection ();
 
         app.UseRouting ();
