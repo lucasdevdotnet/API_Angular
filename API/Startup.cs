@@ -16,6 +16,8 @@ using Microsoft.Extensions.Logging;
 using API.Helper;
 using AutoMapper;
 using API.Middlware;
+using API.Errors;
+using Microsoft.OpenApi.Models;
 
 namespace API {
     public class Startup {
@@ -31,8 +33,7 @@ namespace API {
         public void ConfigureServices (IServiceCollection services) {
             
             #region Injetando dependencias  
-            services.AddScoped<IProductRepository, ProductRepository> ();
-            services.AddScoped(typeof(IGenericRepository<>), (typeof (GenericRepository<>))); // injectando as dependencias      
+          
             services.AddAutoMapper(typeof(MappingProfiles));
             #endregion
 
@@ -40,6 +41,20 @@ namespace API {
                 services.AddDbContext<StroreContext> (x =>
                     x.UseSqlite (_config.GetConnectionString ("minhaconnection")));
                 services.AddControllers ();
+               
+                /// confugrando  Sweergue  
+
+                services.AddSwaggerGen(c=>
+                {
+
+                     c.SwaggerDoc("v1", new OpenApiInfo
+                     {
+                         Title = "SkiNet API",
+                         Version= "v1"
+
+                     });
+
+                });
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,7 +67,8 @@ namespace API {
         app.UseStaticFiles(); // config   para  para aparecer   as imagens  no meus  request 
 
         app.UseAuthorization ();
-
+        app.UseSwagger();
+        app.UseSwaggerUI(c=>{c.SwaggerEndpoint("/swagger/v1/swagger.json", "Skinet Api v1");});
         app.UseEndpoints (endpoints => {
             endpoints.MapControllers ();
         });
