@@ -36,7 +36,7 @@ namespace Infrastructure.Data
         }
 
         public  async Task<IReadOnlyList<Product>> GetproductsAsyn()
-        {
+        { 
    
           return await  _context.Products
                  .Include(p=>p.ProductType)
